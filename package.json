@@ -1,0 +1,35 @@
+{
+  "name": "hardhat-project",
+  "devDependencies": {
+    "chai": "^4.3.6",
+    "hardhat": "^2.9.6"
+  },
+  "dependencies": {
+    "@aave/core-v3": "^1.13.1",
+    "@nomiclabs/hardhat-ethers": "^2.0.6",
+    "@nomiclabs/hardhat-etherscan": "^3.0.3",
+    "@openzeppelin/contracts": "^4.6.0",
+    "@thanpolas/univ3prices": "^3.0.2",
+    "@truffle/hdwallet-provider": "^2.0.8",
+    "@uniswap/sdk": "^3.0.3",
+    "@uniswap/v2-periphery": "^1.1.0-beta.0",
+    "@uniswap/v3-periphery": "^1.4.1",
+    "axios": "^0.27.2",
+    "big.js": "^6.1.1",
+    "cli-color": "^2.0.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.1",
+    "ethers": "^5.6.8",
+    "express": "^4.18.1",
+    "moralis": "^1.8.1",
+    "nodemailer": "^6.7.5",
+    "web3": "^1.7.3"
+  },
+  "description": "This code takes advantage of price discrepancies for a token pair between Quickswap, Sushiswap, and UniswapV3 on the Polygon mainnet. In order to maximize profits, these arbitrage opportunities will be exploited with the help of a flashloan from AAVE.",
+  "version": "1.0.0",
+  "main": "bot.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  
+}

@@ -1,0 +1,10 @@
+node_modules
+ganacheDB
+ABIs
+backups
+cache
+.env
+scratchWork
+.vscode
+.DS_Store
+logs
