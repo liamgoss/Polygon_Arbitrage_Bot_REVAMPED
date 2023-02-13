@@ -111,7 +111,7 @@ function deleteTwoPairs(pair1, pair2) {
 
 async function getGasPrice() {
     try {
-        const response = await axios.get(`https://api.polygonscan.com/api?module=gastracker&action=gasoracle&apikey=${process.env.ETHERSCAN_API_KEY}`)
+        const response = await axios.get(`https://api.polygonscan.com/api?module=gastracker&action=gasoracle&apikey=${process.env.POLYGONSCAN_API_KEY}`)
         return Number(response.data.result.FastGasPrice)
     }catch (error) {
         console.log(color.redBright("Error occurred in getGasPrice()"))
